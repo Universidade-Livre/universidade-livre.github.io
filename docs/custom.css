@@ -28,6 +28,8 @@
     
     color: rgb(41, 173, 122);
     background: -webkit-linear-gradient(10deg, rgba(41, 173, 122, 1) 0%, rgba(61, 120, 172, 1) 100%);
+    animation: gradient 5s ease infinite;
+    background-size: 400% 400%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -37,4 +39,16 @@
 
 .ubl-bg-green {
     background:rgba(41, 173, 122)
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
