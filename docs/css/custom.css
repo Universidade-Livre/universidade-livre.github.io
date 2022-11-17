@@ -21,7 +21,7 @@
 .ubl-bg-gradient {
     background: rgb(41, 173, 122);
     background: linear-gradient(90deg, rgba(41, 173, 122, 1) 0%, rgba(61, 120, 172, 1) 100%);
-
+    animation: gradient 5s ease infinite;
 }
 
 .ubl-text-gradient{
@@ -33,6 +33,14 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.ubl-text-blue {
+  color:rgba(61, 120, 172);
+}
+
+.ubl-text-green {
+  color:rgba(41, 173, 122)
+}
+
 .ubl-bg-blue {
     background:rgba(61, 120, 172);
 }
