@@ -656,6 +656,14 @@ video {
   margin-right: 0.5rem;
 }
 
+.mt-2{
+  margin-top: 0.5rem;
+}
+
+.mt-3{
+  margin-top: 0.75rem;
+}
+
 .block{
   display: block;
 }
@@ -676,6 +684,10 @@ video {
   display: none;
 }
 
+.h-\[90vh\]{
+  height: 90vh;
+}
+
 .h-full{
   height: 100%;
 }
@@ -684,12 +696,16 @@ video {
   height: 4rem;
 }
 
-.h-\[90vh\]{
-  height: 90vh;
-}
-
 .h-\[80\%\]{
   height: 80%;
+}
+
+.h-\[90\%\]{
+  height: 90%;
+}
+
+.h-\[120\%\]{
+  height: 120%;
 }
 
 .w-full{
@@ -777,13 +793,38 @@ video {
   background-color: rgb(17 24 39 / 0.8);
 }
 
+.bg-gray-800{
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
+.bg-gray-900\/90{
+  background-color: rgb(17 24 39 / 0.9);
+}
+
 .bg-gradient-to-b{
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-t{
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
 
 .from-\[\#29ad7a\]\/5{
   --tw-gradient-from: rgb(41 173 122 / 0.05);
   --tw-gradient-to: rgb(41 173 122 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-gray-900{
+  --tw-gradient-from: #111827;
+  --tw-gradient-to: rgb(17 24 39 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-gray-800{
+  --tw-gradient-from: #1f2937;
+  --tw-gradient-to: rgb(31 41 55 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
@@ -813,9 +854,9 @@ video {
   padding: 0.5rem;
 }
 
-.px-5{
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .px-6{
@@ -846,6 +887,11 @@ video {
 .py-12{
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .pt-4{
@@ -992,6 +1038,14 @@ video {
     margin-left: 0px;
   }
 
+  .sm\:h-\[60vh\]{
+    height: 60vh;
+  }
+
+  .sm\:h-\[90vh\]{
+    height: 90vh;
+  }
+
   .sm\:max-w-\[90\%\]{
     max-width: 90%;
   }
@@ -1008,6 +1062,14 @@ video {
     background-position: top;
   }
 
+  .sm\:bg-bottom{
+    background-position: bottom;
+  }
+
+  .sm\:bg-center{
+    background-position: center;
+  }
+
   .sm\:px-3{
     padding-left: 0.75rem;
     padding-right: 0.75rem;
@@ -1021,6 +1083,11 @@ video {
   .sm\:px-9{
     padding-left: 2.25rem;
     padding-right: 2.25rem;
+  }
+
+  .sm\:px-7{
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
   }
 
   .sm\:text-5xl{
