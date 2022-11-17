@@ -1,12 +1,10 @@
+<br>
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Universidade-Livre/universidade-livre.github.io/main/docs/imgs/bannerubl.png" width="80%">
-</p>
-<p align="center">
-<h3 align="center">Universidade Brasileira Livre</h3>
-<p align="center">
-  Um caminho para a educação autodidata em Ciência da Computação!
+    <img src="https://raw.githubusercontent.com/Universidade-Livre/universidade-livre.github.io/main/docs/imgs/bannerubl.png" width="60%">
 </p>
 
+<br>
+<br>
 
 ## 👋 Sobre o repositório
 <p>Este repositório hospeda o código fonte e arquivos referentes ao site da <a href="https://github.com/Universidade-Livre">Universidade Brasileira Livre</a>, uma organização sem fins lucrativos focada e organizar conteúdos online em português brasileiro, com objetivo de aumentar o acesso de brasileiros a educação gratuita e de qualidade.</p> 
