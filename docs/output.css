@@ -648,8 +648,16 @@ video {
   margin-top: 3.5rem;
 }
 
+.mt-10{
+  margin-top: 2.5rem;
+}
+
 .mb-8{
   margin-bottom: 2rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
 }
 
 .mt-1{
@@ -660,8 +668,8 @@ video {
   margin-right: 0.5rem;
 }
 
-.mt-8{
-  margin-top: 2rem;
+.-mt-6{
+  margin-top: -1.5rem;
 }
 
 .block{
@@ -1037,6 +1045,18 @@ video {
 @media (min-width: 640px){
   .sm\:ml-0{
     margin-left: 0px;
+  }
+
+  .sm\:mt-0{
+    margin-top: 0px;
+  }
+
+  .sm\:-mt-20{
+    margin-top: -5rem;
+  }
+
+  .sm\:inline-flex{
+    display: inline-flex;
   }
 
   .sm\:h-\[90vh\]{
