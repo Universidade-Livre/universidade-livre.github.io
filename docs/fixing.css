@@ -1055,6 +1055,10 @@ video {
     margin-top: -5rem;
   }
 
+  .sm\:-mt-16{
+    margin-top: -4rem;
+  }
+
   .sm\:inline-flex{
     display: inline-flex;
   }
@@ -1101,6 +1105,11 @@ video {
   .sm\:px-9{
     padding-left: 2.25rem;
     padding-right: 2.25rem;
+  }
+
+  .sm\:px-16{
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .sm\:text-5xl{
