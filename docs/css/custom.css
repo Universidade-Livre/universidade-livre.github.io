@@ -24,6 +24,10 @@
     animation: gradient 5s ease infinite;
 }
 
+.ubl-simple-bg-gradient {
+  background: rgb(41, 173, 122);
+  background: linear-gradient(90deg, rgba(41, 173, 122, 1) 0%, rgba(61, 120, 172, 1) 100%);
+}
 
 
 .ubl-text-gradient{
