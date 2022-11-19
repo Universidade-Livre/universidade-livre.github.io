@@ -628,6 +628,10 @@ video {
   position: fixed;
 }
 
+.m-4{
+  margin: 1rem;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -716,6 +720,10 @@ video {
 
 .mb-12{
   margin-bottom: 3rem;
+}
+
+.-mr-16{
+  margin-right: -4rem;
 }
 
 .block{
@@ -1007,11 +1015,6 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.px-12{
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
 .pt-4{
   padding-top: 1rem;
 }
@@ -1198,10 +1201,6 @@ video {
 
 .hover\:bg-gray-900\/10:hover{
   background-color: rgb(17 24 39 / 0.1);
-}
-
-.hover\:bg-gray-900\/90:hover{
-  background-color: rgb(17 24 39 / 0.9);
 }
 
 .hover\:bg-gray-900\/70:hover{
