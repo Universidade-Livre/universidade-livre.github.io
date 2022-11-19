@@ -643,9 +643,9 @@ video {
   margin-bottom: 4rem;
 }
 
-.mx-4{
-  margin-left: 1rem;
-  margin-right: 1rem;
+.mx-3{
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .-mx-4{
@@ -656,16 +656,6 @@ video {
 .my-2{
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-
-.mx-2{
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.mx-3{
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
 }
 
 .ml-2{
@@ -898,26 +888,8 @@ video {
   border-width: 0px;
 }
 
-.border-b{
-  border-bottom-width: 1px;
-}
-
 .border-b-2{
   border-bottom-width: 2px;
-}
-
-.border-b-4{
-  border-bottom-width: 4px;
-}
-
-.border-gray-900{
-  --tw-border-opacity: 1;
-  border-color: rgb(17 24 39 / var(--tw-border-opacity));
-}
-
-.border-gray-700{
-  --tw-border-opacity: 1;
-  border-color: rgb(55 65 81 / var(--tw-border-opacity));
 }
 
 .border-gray-600{
@@ -942,10 +914,6 @@ video {
   background-color: rgb(17 24 39 / 0.9);
 }
 
-.bg-gray-900\/100{
-  background-color: rgb(17 24 39 / 1);
-}
-
 .bg-gradient-to-t{
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
@@ -962,14 +930,6 @@ video {
 
 .bg-center{
   background-position: center;
-}
-
-.bg-top{
-  background-position: top;
-}
-
-.bg-bottom{
-  background-position: bottom;
 }
 
 .bg-no-repeat{
@@ -1047,16 +1007,6 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.px-2{
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.px-16{
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
 .px-12{
   padding-left: 3rem;
   padding-right: 3rem;
@@ -1084,10 +1034,6 @@ video {
 
 .text-center{
   text-align: center;
-}
-
-.text-justify{
-  text-align: justify;
 }
 
 .text-sm{
@@ -1195,23 +1141,6 @@ video {
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
-.underline{
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-}
-
-.underline-offset-2{
-  text-underline-offset: 2px;
-}
-
-.underline-offset-8{
-  text-underline-offset: 8px;
-}
-
-.underline-offset-4{
-  text-underline-offset: 4px;
-}
-
 .shadow-2xl{
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -1273,6 +1202,10 @@ video {
 
 .hover\:bg-gray-900\/90:hover{
   background-color: rgb(17 24 39 / 0.9);
+}
+
+.hover\:bg-gray-900\/70:hover{
+  background-color: rgb(17 24 39 / 0.7);
 }
 
 .hover\:text-white\/90:hover{
