@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Universidade Brasileira Livre</title>
+  <style>
+    /* Glassmorphism card effect */
+    .card {
+      backdrop-filter: blur(15px) saturate(94%);
+      -webkit-backdrop-filter: blur(15px) saturate(94%);
+      background-color: rgba(31, 41, 55, 0.86);
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.125);
+    }
+  </style>
+  <meta name="title" content="Universidade Brasileira Livre ">
+  <meta name="description"
+    content="A Universidade Brasileira Livre é um projeto sem fins lucrativos que organiza o conteúdo online em pt-BR para aumentar o acesso de Brasileiros a educação!">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../imgs/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../imgs/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../imgs/favicon/favicon-16x16.png">
+  <link rel="manifest" href="../imgs/favicon/site.webmanifest">
+  <link rel="mask-icon" href="../imgs/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <link href="../assets/fontawesome/css/all.css" rel="stylesheet">
+  <link href="../css/custom.css" rel="stylesheet">
+  <link href="../css/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-800">
+
+  <section class="flex items-center justify-center h-screen  ">
+    <div class="container  flex flex-col items-center justify-center  leading-none tracking-wide    text-center ">
+
+
+
+   <h1  class="text-3xl text-gray-300 mt-2 font-thin   max-w-sm"><span id="msgOutput"></span>
+      </h1>
+
+      <div class="grid grid-cols-1 sm:grid-cols-1 place-items-center  ">
+        <a href="https://ulivre.dev" rel="noopener noreferrer" href="#"
+          class="w-72 py-3 font-medium text-lg rounded mt-8 ubl-bg-gradient  text-white"><i
+            class=" mr-2 fa-solid fa-arrow-left"></i> Voltar para o inicio </a>
+
+
+      </div>
+    </div>
+  </section>
+</body>
+
+
+<script src="../assets/scrollreveal.js"></script>
+<script>
+  ScrollReveal({ reset: false });
+  ScrollReveal().reveal('.reveal_flip', { rotate: { x: 20, z: 20 }, duration: 1000, delay: 300 });
+  ScrollReveal().reveal('.reveal_bottom', { origin: 'bottom', distance: '400px', delay: 300 });
+  ScrollReveal().reveal('.reveal_top', { easing: 'ease-in-out', origin: 'top', distance: '400px', delay: 300 });
+  ScrollReveal().reveal('.reveal_left_delay', { origin: 'left', distance: '100px', delay: 700 });
+  ScrollReveal().reveal('.reveal_left', { origin: 'left', distance: '100px', delay: 400, });
+  ScrollReveal().reveal('.reveal_right', { origin: 'right', distance: '100px', delay: 400 });
+  ScrollReveal().reveal('.reveal_right_pic', { easing: "ease-in-out", origin: 'right', distance: '100px', delay: 400 });
+  ScrollReveal().reveal('.scale_up', { scale: 0.85, delay: 500 });
+</script>
+<script>
+
+  const params = new URLSearchParams(window.location.search)
+  const msgOutput = document.getElementById("msgOutput")
+  const message = params.get("msg")
+  function createAlert() {
+    if (message == null || message == "") {
+      window.location.replace("https://ulivre.dev")
+    } else {
+      msgOutput.innerHTML = message
+    }
+  }
+
+  createAlert()
+
+</script>
+
+</html>
