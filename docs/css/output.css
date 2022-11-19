@@ -632,6 +632,10 @@ video {
   margin: 1rem;
 }
 
+.m-32{
+  margin: 8rem;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -647,11 +651,6 @@ video {
   margin-bottom: 4rem;
 }
 
-.mx-3{
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
 .-mx-4{
   margin-left: -1rem;
   margin-right: -1rem;
@@ -660,6 +659,11 @@ video {
 .my-2{
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.mx-3{
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .ml-2{
@@ -720,10 +724,6 @@ video {
 
 .mb-12{
   margin-bottom: 3rem;
-}
-
-.-mr-16{
-  margin-right: -4rem;
 }
 
 .block{
@@ -788,6 +788,22 @@ video {
 
 .w-10{
   width: 2.5rem;
+}
+
+.w-\[20\%\]{
+  width: 20%;
+}
+
+.w-\[80\%\]{
+  width: 80%;
+}
+
+.w-\[85\%\]{
+  width: 85%;
+}
+
+.w-\[82\%\]{
+  width: 82%;
 }
 
 .max-w-7xl{
@@ -918,6 +934,11 @@ video {
   background-color: rgb(17 24 39 / 0.2);
 }
 
+.bg-gray-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
 .bg-gray-900\/90{
   background-color: rgb(17 24 39 / 0.9);
 }
@@ -968,6 +989,14 @@ video {
 
 .p-8{
   padding: 2rem;
+}
+
+.p-32{
+  padding: 8rem;
+}
+
+.p-10{
+  padding: 2.5rem;
 }
 
 .px-3{
@@ -1142,6 +1171,14 @@ video {
 .text-gray-400{
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.opacity-75{
+  opacity: 0.75;
+}
+
+.opacity-80{
+  opacity: 0.8;
 }
 
 .shadow-2xl{
