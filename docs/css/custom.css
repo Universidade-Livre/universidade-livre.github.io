@@ -54,6 +54,10 @@ html,body{
     background:rgba(61, 120, 172);
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .ubl-bg-green {
     background:rgba(41, 173, 122)
 }
