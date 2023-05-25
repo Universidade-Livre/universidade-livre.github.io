@@ -60,6 +60,7 @@ body {
   margin: 0;
   /* 1 */
   line-height: inherit;
+  display: flex;
   /* 2 */
 }
 
@@ -1366,6 +1367,12 @@ video {
 
 .focus\:ring-offset-2:focus{
   --tw-ring-offset-width: 2px;
+}
+
+.cursos{
+  justify-content: space-between;
+
+  background-color: blueviolet;
 }
 
 @media (prefers-color-scheme: dark){
