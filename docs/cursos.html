@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html style="height: 100vh;">
 
 <head>
   <meta charset="UTF-8">
@@ -42,15 +42,16 @@
   <link href="./css/output.css" rel="stylesheet">
 </head>
 
-<body class="bg-gray-800">
+<body class="bg-gray-800 h-screen">
 
   <aside style="background-image: url(./imgs/background2.webp);"
-    class="bg-cover bg-no-repeat  h-[120%] sm:h-[90vh]  sm:bg-top reveal_top">
-    <section class="bg-gradient-to-t   h-full from-gray-800 bg-gray-900/80">
+    class="bg-cover bg-no-repeat  h-screen   sm:bg-top reveal_top">
+    <section class="bg-gradient-to-t h-full from-gray-800 bg-gray-900/80  mx-auto flex flex-col">
       <section class="px-3 sm:px-7 pt-4 ">
 
-        <div class="         ">
-
+        <div class="grid"> <!-- Adicionada a classe "grid" e "justify-center" -->
+         
+         
           <nav class="shadow-2xl shadow-gray-900 rounded-3xl scale_up  ubl-bg-gradient">
             <div class="max-w-7xl sm:max-w-[90%] mx-auto   ">
               <div class="flex items-center justify-between h-16  px-6 ">
@@ -66,7 +67,7 @@
                       <a  class="text-gray-200  hover:text-white/50  px-3 py-2 rounded-md text-sm font-medium" href="#about">
                         Sobre nós
                       </a>
-                      <a  href="alert/?msg=Área%20de%20Cursos%20em%20Desenvolvimento" class="text-gray-200  hover:text-white/50 px-3 py-2 rounded-md text-sm font-medium" >
+                      <a href="/docs/cursos.html"   class="text-gray-200  hover:text-white/50 px-3 py-2 rounded-md text-sm font-medium" >
                         Cursos
                       </a>
                       <a href="https://github.com/Universidade-Livre" class="text-gray-200  hover:text-white/50  px-3 py-2 rounded-md text-sm font-medium" >
@@ -105,11 +106,14 @@
             </div>
           </nav>
 
+
+
+        </div>
       </section>
 
-      <section class="bg-gray-800 text-white ">
-        <div class="mt-8 grid gap-8 content-center items-center md:grid-cols-1">
-          <a class="block rounded-xl p-8 shadow-xl transition hover:bg-gray-900/10 hover:shadow-none bg-gray-900/20 scale_up">
+      <section class=" text-white flex-row items-center justify-center bg-red-600 flex" style="flex: 1;">
+        <div class="mt-8 grid gap-8 content-center items-center grid-cols-2 items-center p-4">
+          <a href="https://github.com/Universidade-Livre/ciencia-da-computacao" class="block rounded-xl p-8 shadow-xl transition hover:bg-gray-900/10 hover:shadow-none bg-gray-900/20 scale_up" style="background-color: rgb(31 41 55 );">
             <div class="h-10 w-10 text-3xl ubl-text-gradient">
               <i class="fa-solid fa-laptop-code"></i>
             </div>
@@ -118,7 +122,7 @@
               Um caminho para a educação autodidata em Ciência da Computação!
             </p>
           </a>
-          <a class="block rounded-xl p-8 shadow-xl transition hover:bg-gray-900/10 hover:shadow-none bg-gray-900/20 scale_up">
+          <a href="https://github.com/Universidade-Livre/matematica" class="block rounded-xl p-8 shadow-xl transition hover:bg-gray-900/10 hover:shadow-none bg-gray-900/20 scale_up" style="background-color: rgb(31 41 55 );" >
             <div class="h-10 w-10 text-3xl ubl-text-gradient">
               <i class="fa-solid fa-money-bill-wave"></i>
             </div>
@@ -132,57 +136,8 @@
       </section>
     
   <footer aria-label="Site Footer" class="">
-    <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <!-- <div class="flex justify-center ">
-      
-      </div> -->
-  
-      <!-- <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-        consequuntur amet culpa cum itaque neque.
-      </p> -->
-  
-      <!-- <nav aria-label="Footer Nav" class="mt-12">
-        <ul class="flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
-          <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
-              Algo
-            </a>
-          </li>
-  
-          <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
-                Algo
-            </a>
-          </li>
-  
-          <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
-                Algo
-            </a>
-          </li>
-  
-          <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
-                Algo
-            </a>
-          </li>
-  
-          <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
-              Algo
-            </a>
-          </li>
-  
-          <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
-              Algo
-            </a>
-          </li>
-        </ul>
-      </nav> -->
-  
-      <ul class="mt-12 flex justify-center gap-6 md:gap-8">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-16">
+      <ul class=" flex justify-center gap-6 md:gap-8">
         <li>
           <a
             href="https://twitter.com/UBLivre"
