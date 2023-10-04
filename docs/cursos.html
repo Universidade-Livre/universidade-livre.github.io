@@ -1,0 +1,214 @@
+<!doctype html>
+<html style="height: 100vh;">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universidade Brasileira Livre</title>
+
+  <meta name="title" content="Universidade Brasileira Livre ">
+  <meta name="description"
+    content="A Universidade Brasileira Livre é um projeto sem fins lucrativos que organiza o conteúdo online em pt-BR para aumentar o acesso de Brasileiros a educação!">
+
+
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://universidade-livre.github.io/">
+  <meta property="og:title" content="Universidade Brasileira Livre">
+  <meta property="og:description"
+    content="A Universidade Brasileira Livre é um projeto sem fins lucrativos que organiza o conteúdo online em pt-BR para aumentar o acesso de Brasileiros a educação!">
+  <meta property="og:image" content="./imgs/meta/meta-image.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://universidade-livre.github.io/">
+  <meta property="twitter:title" content="Universidade Brasileira Livre">
+  <meta property="twitter:description"
+    content="A Universidade Brasileira Livre é um projeto sem fins lucrativos que organiza o conteúdo online em pt-BR para aumentar o acesso de Brasileiros a educação!">
+  <meta property="twitter:image" content="./imgs/meta/meta-image.jpg">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./imgs/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./imgs/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./imgs/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./imgs/favicon/site.webmanifest">
+  <link rel="mask-icon" href="./imgs/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <link href="./assets/fontawesome/css/all.css" rel="stylesheet">
+  <link href="./css/custom.css" rel="stylesheet">
+  <link href="./css/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-800 h-screen">
+
+  <aside style="background-image: url(./imgs/background2.webp);"
+    class="bg-cover bg-no-repeat  h-screen   sm:bg-top reveal_top">
+    <section class="bg-gradient-to-t h-full from-gray-800 bg-gray-900/80  mx-auto flex flex-col">
+      <section class="px-3 sm:px-7 pt-4 ">
+
+        <div class="grid"> <!-- Adicionada a classe "grid" e "justify-center" -->
+         
+         
+          <nav class="shadow-2xl shadow-gray-900 rounded-3xl scale_up  ubl-bg-gradient">
+            <div class="max-w-7xl sm:max-w-[90%] mx-auto   ">
+              <div class="flex items-center justify-between h-16  px-6 ">
+                <div class="w-full justify-between flex items-center ">
+                  <a class="flex-shrink-0" href="/">
+                    <img class="w-14 ml-2 sm:ml-0" src="./imgs/simpleicon.png" alt="Workflow" />
+                  </a>
+                  <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                      <a class="text-white  hover:text-white/90 px-3 py-2 rounded-md text-sm font-medium" href="">
+                        Inicio
+                      </a>
+                      <a  class="text-gray-200  hover:text-white/50  px-3 py-2 rounded-md text-sm font-medium" href="#about">
+                        Sobre nós
+                      </a>
+                      <a href="/docs/cursos.html"   class="text-gray-200  hover:text-white/50 px-3 py-2 rounded-md text-sm font-medium" >
+                        Cursos
+                      </a>
+                      <a href="https://github.com/Universidade-Livre" class="text-gray-200  hover:text-white/50  px-3 py-2 rounded-md text-sm font-medium" >
+                        Github
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="block">
+                  <div class="ml-4 flex items-center md:ml-6">
+                  </div>
+                </div>
+                <div class="-mr-2 flex md:hidden">
+                  <button onclick="mobileMenuShow()"
+                    class=" text-white inline-flex items-center text-2xl justify-center p-2 rounded-md focus:outline-none">
+                    <i class="fa-solid fa-bars"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div style="display: none;" id="menuMobile" class="md:hidden">
+              <div class="px-5 pt-2 pb-3 space-y-1 sm:px-3">
+                <a class="text-white hover:text-white  block px-3 py-2 rounded-md text-base font-medium" href="#">
+                  Inicio
+                </a>
+                <a class="text-gray-100  hover:text-white block px-3 py-2 rounded-md text-base font-medium" href="#about">
+                  Sobre nós
+                </a>
+                <a href="alert/?msg=Área%20de%20Cursos%20em%20Desenvolvimento" class="text-gray-100 hover:text-white block px-3 py-2 rounded-md text-base font-medium" >
+                  Cursos
+                </a>
+                <a href="https://github.com/Universidade-Livre" class="text-gray-100 hover:text-white  block px-3 py-2 rounded-md text-base font-medium" >
+                  Github
+                </a>
+              </div>
+            </div>
+          </nav>
+
+
+
+        </div>
+      </section>
+
+      <section class=" text-white flex-row items-center justify-center bg-red-600 flex" style="flex: 1;">
+        <div class="mt-8 grid gap-8 content-center items-center grid-cols-2 items-center p-4">
+          <a href="https://github.com/Universidade-Livre/ciencia-da-computacao" class="block rounded-xl p-8 shadow-xl transition hover:bg-gray-900/10 hover:shadow-none bg-gray-900/20 scale_up" style="background-color: rgb(31 41 55 );">
+            <div class="h-10 w-10 text-3xl ubl-text-gradient">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <h2 class="mt-4 text-xl font-medium text-white">Ciência da Computação</h2>
+            <p class="mt-1 text-lg font-thin text-gray-300">
+              Um caminho para a educação autodidata em Ciência da Computação!
+            </p>
+          </a>
+          <a href="https://github.com/Universidade-Livre/matematica" class="block rounded-xl p-8 shadow-xl transition hover:bg-gray-900/10 hover:shadow-none bg-gray-900/20 scale_up" style="background-color: rgb(31 41 55 );" >
+            <div class="h-10 w-10 text-3xl ubl-text-gradient">
+              <i class="fa-solid fa-money-bill-wave"></i>
+            </div>
+            <h2 class="mt-4 text-xl font-medium text-white">Matemática</h2>
+            <p class="mt-1 text-lg font-thin text-gray-300">
+              Um caminho para a educação autodidata em Matemática!
+            </p>
+          </a>
+        </div>
+        
+      </section>
+    
+  <footer aria-label="Site Footer" class="">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-16">
+      <ul class=" flex justify-center gap-6 md:gap-8">
+        <li>
+          <a
+            href="https://twitter.com/UBLivre"
+            rel="noreferrer"
+            target="_blank"
+            class=" transition text-gray-400 text-2xl "
+          >
+            <span class="sr-only">Twitter</span>
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://github.com/Universidade-Livre"
+            rel="noreferrer"
+            target="_blank"
+            class=" transition text-gray-400 text-2xl "
+          >
+            <span class="sr-only">Github</span>
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+  
+
+        <li>
+          <a
+            href="https://discord.gg/dsvMraVaca "
+            rel="noreferrer"
+            target="_blank"
+            class=" transition text-gray-400 text-2xl "
+          >
+            <span class="sr-only">Discord</span>
+            <i class="fa-brands fa-discord"></i>
+          </a>
+        </li>
+  
+  
+    
+  
+
+      </ul>
+    </div>
+  </footer>
+</body>
+<script>
+  var x = document.getElementById("menuMobile");
+  let menuMobileVar = 0
+  function mobileMenuShow() {
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  window.addEventListener('resize', function (event) {
+    x.style.display = "none"
+  });
+</script>
+
+<script src="./assets/scrollreveal.js"></script>
+<script>
+  ScrollReveal({ reset: false });
+  ScrollReveal().reveal('.reveal_flip', { rotate: { x: 20, z: 20 }, duration: 1000, delay: 300 });
+  ScrollReveal().reveal('.reveal_bottom', { origin: 'bottom', distance: '400px', delay: 300 });
+  ScrollReveal().reveal('.reveal_top', { easing: 'ease-in-out', origin: 'top', distance: '400px', delay: 300 });
+  ScrollReveal().reveal('.reveal_left_delay', { origin: 'left', distance: '100px', delay: 700 });
+  ScrollReveal().reveal('.reveal_left', { origin: 'left', distance: '100px', delay: 400, });
+  ScrollReveal().reveal('.reveal_right', { origin: 'right', distance: '100px', delay: 400 });
+  ScrollReveal().reveal('.reveal_right_pic', { easing: "ease-in-out", origin: 'right', distance: '100px', delay: 400 });
+  ScrollReveal().reveal('.scale_up', { scale: 0.85, delay: 500 });
+</script>
+
+</html>
